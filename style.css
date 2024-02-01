@@ -1,0 +1,120 @@
+.container {
+    background-image: url(Tetulia\ Bazar\ 2\ final.png);
+    width: 1890px;
+    height: 669px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 15px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li:hover a {
+    border: solid 1px bisque;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: bisque;
+    color: black;
+    font-weight: 700;
+}
+
+header,
+h1 {
+    text-align: center;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+
+#line {
+    margin-right: 50px;
+}
+
+.slash {
+    color: rgb(255, 255, 255);
+    font-size: 150px;
+}
+
+.on {
+    color: rgb(223, 7, 243);
+    font-size: 125px;
+}
+
+.off {
+    color: rgb(238, 238, 4);
+    font-size: 125px;
+}
+
+input {
+    border: solid grey 1px;
+    background-color: rgb(250, 248, 165);
+
+}
+
+.input-2 {
+    margin-top: 100px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+
+}
+
+.input {
+    margin-right: 40px;
+    border-radius: 0 20px 20px 0;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    margin-left: -5px;
+    background-color: rgb(240, 161, 105);
+}
+
+.article {
+    width: 1890px;
+    display: flex;
+
+}
+
+.article img {
+    width: 100%;
+
+}
+
+.article div {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    box-shadow: 30px 40px 40px grey;
+
+}
+
+main h1 {
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 100px;
+    font-family: serif;
+}
